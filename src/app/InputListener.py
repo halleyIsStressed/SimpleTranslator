@@ -3,8 +3,9 @@ from pynput.keyboard import KeyCode, Key
 from io import StringIO
 import logging
 
-logger = logging.getLogger(__name__)
 
+# Keylogger. Currently using ESC to stop capture
+logger = logging.getLogger(__name__)
 inputs = StringIO()
 
 
